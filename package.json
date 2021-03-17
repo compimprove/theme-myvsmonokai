@@ -1,0 +1,21 @@
+{
+    "name": "myvsmonokai",
+    "displayName": "MyVSMonokai",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "myvsmonokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/myvsmonokai-color-theme.json"
+            }
+        ]
+    }
+}

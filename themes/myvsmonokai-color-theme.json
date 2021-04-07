@@ -233,7 +233,7 @@
 		},
 		{
 			"name": "Class name",
-			"scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+			"scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution,variable.other.constant.js,variable.other.constant.object.js",
 			"settings": {
 				//"fontStyle": "underline",
 				"foreground": "#66D9EF"
@@ -251,6 +251,14 @@
 		{
 			"name": "Function name",
 			"scope": "entity.name.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "Punctuation name",
+			"scope": "punctuation.terminator.statement.js,meta.brace.square.js,meta.brace.round.js",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#A6E22E"

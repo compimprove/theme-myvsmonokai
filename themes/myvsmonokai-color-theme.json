@@ -258,10 +258,10 @@
 		},
 		{
 			"name": "Punctuation name",
-			"scope": "punctuation.terminator.statement.js,meta.brace.square.js,meta.brace.round.js",
+			"scope": "punctuation.terminator.statement.js,punctuation.accessor.js,punctuation.separator.comma.js,punctuation.separator.key-value.js",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#A6E22E"
+				"foreground": "#F92672"
 			}
 		},
 		{
